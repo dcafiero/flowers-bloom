@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;/*external space*/
+padding:0;/*internal space*/
+font-weight:normal;
+font-size:100%;/*16px*/
+text-decoration:none;
+}
+
+html {
+  background-color:#fcf3cf;
+}
+
+body {
+  background-color: white;
+  max-width:960px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header {
+  background-color:#ff930d;
+  font-size:22px;
+}
+
+
+
+h1 {
+  color:white;
+  margin:25px 0;
+  padding: 10px;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+nav ul {
+  list-style-type:none;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+nav ul a {
+  font-size: 18px;
+  color:white;
+  display:block;
+  padding:20px;
+  transition:background-color .5s;
+}
+nav ul a:hover {
+  background-color:white;
+  color: #ff930d;
+  text-decoration: underline;
+}
+
+h2 {
+  color:white;
+  background-color: #ff930d;
+  padding: 20px;
+  font-size:20px;
+  text-decoration: none;
+  margin:30px 0;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+p {
+  color:#7d6608;
+  font-size:12px;
+  text-decoration: none;
+  margin:20px 0;
+  padding: 10px;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+footer {
+  font-size: 10px;
+  background-color: #ff930d;
+  padding: 5px;
+}
+
+
+.col {
+  display:flex;
+  justify-content: center;
+}
+.col div {
+  flex:1;
+}
+div.wide {
+  flex:3;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img.banner {
+  clear:left;
+  max-height: inherit;
+  width: 100%;
+  background-image:url(../images/flower-bkg.jpg);
+  background-position:center;
+  background-size:cover;
+}
