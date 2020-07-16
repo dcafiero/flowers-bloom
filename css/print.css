@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*print css document */
+
+header {
+  background-color:transparent;
+  color: black;
+}
+
+footer {
+  background-color:transparent;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+h1, h2 {
+  color: black;
+}
+
+nav ul a {
+  color: black;
+}
+
+img {
+  display:none;
+}
+
+main {
+  background-image:none;
+}
+
+main div {
+  flex:1;
+  background color: transparent;
+}
