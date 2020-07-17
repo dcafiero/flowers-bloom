@@ -35,3 +35,11 @@ main div {
   flex:1;
   background color: transparent;
 }
+
+button {
+  display: none;
+}
+
+footer.p {
+  display: none;
+}
